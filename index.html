@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money Master</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Money Master</h1>
+        <p>Track your expenses all the time and save as much as possible</p>
+    </header>
+    <main class="makeFlex">
+        <div class="image">
+            <img src="./money.png" alt="Money">
+        </div>
+        <div class="calculation">
+            <h1>Income</h1>
+            <label for="">Income: </label><input type="number" placeholder="0.00">
+            <h1>Expenses</h1>
+            <label for="">Food: </label><input type="number" placeholder="0.00"><br>
+            <label for="">Rent: </label><input type="number" placeholder="0.00"><br>
+            <label for="">Clothes: </label><input type="number" placeholder="0.00"><br>
+            <br>
+            <button>Calculate</button>
+            <h1>Total Expenses: <span>0</span></h1>
+            <h1>Balance: <span>0</span></h1>
+        </div>
+    </main>
 </body>
 </html>
